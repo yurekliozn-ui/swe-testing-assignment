@@ -73,3 +73,17 @@ Whenever the code is updated or new features are added, the test suite can be ex
 ## Test Results Summary
 
 All tests can be executed using:
+
+| Test Name | Type | Result |
+|----------|------|--------|
+| test_addition | Unit | Pass |
+| test_subtraction | Unit | Pass |
+| test_multiplication | Unit | Pass |
+| test_division | Unit | Pass |
+| test_division_by_zero | Unit | Pass |
+| test_negative_result | Unit | Pass |
+| test_decimal_addition | Unit | Pass |
+| test_clear_resets_state | Unit | Pass |
+| test_large_numbers | Unit | Pass |
+| test_full_user_interaction | Integration | Pass |
+| test_clear_function | Integration | Pass |
