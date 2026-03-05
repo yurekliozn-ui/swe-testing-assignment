@@ -26,3 +26,11 @@ This project focuses on clean, testable code and a multi-layered testing strateg
    ```bash
    git clone https://github.com/yurekliozn-ui/swe-testing-assignment.git
    cd swe-testing-assignment
+Testing Framework Research (Pytest vs Unittest)
+
+Python provides the built-in unittest framework and the widely used third-party framework pytest.
+unittest is part of the standard library and follows an object-oriented style (test classes, setup/teardown methods, and many assertions). This can be a benefit for large enterprise-style codebases, but it often leads to more boilerplate and less readable tests for small projects.
+
+pytest emphasizes simplicity and developer experience. Tests are usually written as plain functions with normal assert statements, and pytest provides powerful features such as fixtures, parameterization, and rich failure output. These features make it easy to write tests that are clean, concise, and scalable without forcing a specific class-based structure.
+
+For Quick-Calc, pytest was selected because it allows writing expressive tests with minimal boilerplate, which supports rapid development and clear demonstration of the testing pyramid (many unit tests + a few integration tests). The readability and strong assertion introspection also make it easier to understand failures and maintain the test suite.
